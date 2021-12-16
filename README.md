@@ -8,10 +8,30 @@
 
 ## 💾 Installation
 
-* Download the release
-* Extract file
-* Open terminal at directory and type
-* <details> <summary>./comice-control-center</summary> </details>	
+* Download the release or 
+```bash
+git clone https://github.com/kleqing/macOS-control-center-for-linux
+```
+* Extract file (for download the release)
+* Open terminal at directory and type (for git clone)
+```bash
+cd macOS-control-center-for-linux
+```
+	* Arch Linux
+```bash
+sudo pacman -S util-linux gsettings-desktop-schemas wireless_tools iproute alsa-utils dbus-python python-pip
+```
+	* Other distro (Not test yet)
+```bash
+sudo apt-get install python3 python3-dbus util-linux gsettings-desktop-schemas wireless-tools iproute alsa-utils
+```
+
+```bash
+sudo pip3 install -r requirements.txt
+```
+```bash
+./comice-control-center
+```
 
 ## ⚠ Attention
 
@@ -28,10 +48,14 @@ This is a fake control center and it build from python so it cann't control the 
 
 ## For Arch users
 When you install this tool, you cann't see wifi connection and bluetooth. To fix it, type this in terminal
-			<details> <summary>sudo pacman -S blueman iw</summary> </details>	
+		```bash
+		sudo pacman -S blueman iw
+		```	
 
 To fix sound doesn't display, type
-		<details> <summary>sudo pacman -S pulseaudio-alsa</summary> </details>	
+		```
+		sudo pacman -S pulseaudio-alsa
+		```
 
 ## Follow me
 * <a href="https://www.facebook.com/kleqing24k/">Facebook</a>
