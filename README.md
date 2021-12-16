@@ -25,7 +25,7 @@ sudo pacman -S util-linux gsettings-desktop-schemas wireless_tools iproute alsa-
 ```bash
 sudo apt-get install python3 python3-dbus util-linux gsettings-desktop-schemas wireless-tools iproute alsa-utils
 ```
-* Then
+* Then:
 ```bash
 sudo pip3 install -r requirements.txt
 ```
