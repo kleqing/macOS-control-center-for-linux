@@ -48,14 +48,14 @@ This is a fake control center and it build from python so it cann't control the 
 
 ## For Arch users
 When you install this tool, you cann't see wifi connection and bluetooth. To fix it, type this in terminal
-		```bash
-		sudo pacman -S blueman iw
-		```	
+```bash
+sudo pacman -S blueman iw
+```	
 
 To fix sound doesn't display, type
-		```
-		sudo pacman -S pulseaudio-alsa
-		```
+```bash
+sudo pacman -S pulseaudio-alsa
+```
 
 ## Follow me
 * <a href="https://www.facebook.com/kleqing24k/">Facebook</a>
