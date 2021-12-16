@@ -47,12 +47,12 @@ This is a fake control center and it build from python so it cann't control the 
 * A bluetooth connection is required for Control Center too. If your system doesn't have bluetooth, please don't try this because it will not work
 
 ## For Arch users
-When you install this tool, you cann't see wifi connection and bluetooth. To fix it, type this in terminal
+When you install this tool, you cann't see wifi connection and bluetooth. To fix it, type this in terminal:
 ```bash
 sudo pacman -S blueman iw
 ```	
 
-To fix sound doesn't display, type
+To fix sound doesn't display, type:
 ```bash
 sudo pacman -S pulseaudio-alsa
 ```
