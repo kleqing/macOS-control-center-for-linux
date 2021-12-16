@@ -17,11 +17,11 @@ git clone https://github.com/kleqing/macOS-control-center-for-linux
 ```bash
 cd macOS-control-center-for-linux
 ```
-	* Arch Linux
+* Arch Linux
 ```bash
 sudo pacman -S util-linux gsettings-desktop-schemas wireless_tools iproute alsa-utils dbus-python python-pip
 ```
-	* Other distro (Not test yet)
+* Other distro (Not test yet)
 ```bash
 sudo apt-get install python3 python3-dbus util-linux gsettings-desktop-schemas wireless-tools iproute alsa-utils
 ```
