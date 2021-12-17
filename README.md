@@ -4,7 +4,7 @@
 
 ![Screenshot](src/controlcenter.png)
 
-* This is a version base from <a href="https://github.com/libredeb/comice-control-center">comice control center</a> but added more feature
+* This is a version based from <a href="https://github.com/libredeb/comice-control-center">comice control center</a> but added more feature
 
 ## 💾 Installation
 
